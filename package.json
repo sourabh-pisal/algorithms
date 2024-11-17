@@ -1,0 +1,35 @@
+{
+  "name": "algorithms",
+  "version": "1.0.0",
+  "description": "A repository dedicated to implementing fundamental algorithms using TypeScript.",
+  "main": "src/index.ts",
+  "scripts": {
+    "clean": "rm -rf dist node_modules",
+    "lint": "eslint src",
+    "build": "tsc",
+    "start": "ts-node src/index.ts",
+    "update": "npm update --save",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sourabh-pisal/algorithms.git"
+  },
+  "author": "Sourabh Pisal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sourabh-pisal/algorithms/issues"
+  },
+  "homepage": "https://github.com/sourabh-pisal/algorithms#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.14.0",
+    "@types/eslint__js": "^8.42.3",
+    "eslint": "9.14.0",
+    "eslint-config-prettier": "^9.1.0",
+    "globals": "^15.12.0",
+    "prettier": "^3.3.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3",
+    "typescript-eslint": "^8.14.0"
+  }
+}
